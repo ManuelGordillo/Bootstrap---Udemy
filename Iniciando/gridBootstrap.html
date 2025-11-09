@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      .row div {
+        background-color: #f2f2f2;
+        margin: 10px 0;
+        padding: 40px;
+      }
+    </style>
+    <title>Grid Bootstrap</title>
+  </head>
+  <body>
+    <!-- El container es el contenedor principal, en donde iran todas las filas y columnas -->
+    <!-- Con el container podemos centrar nuestra pagina -->
+    <div class="container">
+      <!-- Las filas (row) son grupos HORIZONTALES de columnas -->
+      <!-- Los Tamaños de columna en bootstrap 5 son:
+        .col Extra pequeño (Extra Small) - Smartphones Vertical   Menos de 576px
+        .col-sm Pequeño (Small) - Smatphones Vertical Más de 576px   y     menos de 768px
+        .col-md Mediano (Medium) - Tablets     Mas de 768px y menos de 992px
+        .col-lg Largo (large) - Computadoras   Mas de 992px y menos de 1200px
+        .col-xl Extra Largo (Extra Large) - Computadoras  Mas de 1200px
+        .col-xxl Extra Extra Largo (Extra Extra Large) - Televisiones Mas de 1400px-->
+      <div class="row">
+        <div class="col-6">
+          <h1>Hola Mundo</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Consequatur, sint.
+          </p>
+          <button class="btn btn-primary">Ver mas</button>
+        </div>
+        <div class="col-6">
+          <h1>Hola Mundo</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Consequatur, sint.
+          </p>
+          <button class="btn btn-primary">Ver mas</button>
+        </div>
+        <div class="col">
+          <h1>Hola Mundo</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Consequatur, sint.
+          </p>
+          <button class="btn btn-primary">Ver mas</button>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

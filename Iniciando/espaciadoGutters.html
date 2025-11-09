@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Columnas Alineadas Horizontalmente</title>
+    <style>
+      .row {
+        background-color: #e8e8e8;
+        margin-top: 20px;
+      }
+
+      .contenido {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #4d5061;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Diferentes gutters
+       g-0 sin gutters
+       gx-5 gutters horizontal
+       gy-5 gutters vertical -->
+      <div class="row gy-5">
+        <div class="col-6">
+          <div class="contenido">Columna 1</div>
+        </div>
+        <div class="col-6">
+          <div class="contenido">Columna 2</div>
+        </div>
+        <div class="col-6">
+          <div class="contenido">Columna 3</div>
+        </div>
+        <div class="col-6">
+          <div class="contenido">Columna 4</div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
